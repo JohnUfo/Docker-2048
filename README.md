@@ -32,17 +32,6 @@ $ docker build -t 2048-game .
 $ docker run -p 80:80 2048-game
 ```
 
-### 4. Deploy to AWS Elastic Beanstalk
-- Install AWS CLI and Elastic Beanstalk CLI.
-- Initialize an Elastic Beanstalk application:
-  ```bash
-  $ eb init
-  ```
-- Create and deploy the environment:
-  ```bash
-  $ eb create 2048-env
-  ```
-
 ## Dockerfile Explanation
 
 ```Dockerfile
